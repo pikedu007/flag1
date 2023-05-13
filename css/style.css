@@ -1,0 +1,189 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+body{
+font-family: serif;
+font-size: 14px;
+line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+	margin: 100px 420px;
+}
+
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+}
+
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+}
+
+.fb:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.yt{
+	width: 150px;
+	position: fixed;
+	top: 45%;
+	right: -100px;
+}
+
+.yt:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.tw{
+	width: 150px;
+	position: fixed;
+	top: 50%;
+	right: -100px;
+}
+
+.tw:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.be{
+	width: 150px;
+	position: fixed;
+	top: 55%;
+	right: -100px;
+}
+
+.be:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.dri{
+	width: 150px;
+	position: fixed;
+	top: 60%;
+	right: -100px;
+}
+
+.dri:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.ins{
+	width: 150px;
+	position: fixed;
+	top: 65%;
+	right: -100px;
+}
+
+.ins:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.lin{
+	width: 150px;
+	position: fixed;
+	top: 70%;
+	right: -100px;
+}
+
+.lin:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.pin{
+	width: 150px;
+	position: fixed;
+	top: 75%;
+	right: -100px;
+}
+
+.pin:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.redi{
+	width: 150px;
+	position: fixed;
+	top: 80%;
+	right: -100px;
+}
+
+.redi:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.wts{
+	width: 150px;
+	position: fixed;
+	top: 85%;
+	right: -100px;
+}
+
+.wts:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+
+}
+
+.social-icons li{
+
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 40px;
+	text-align: center;
+	background: #056556;
+	color: white;
+	margin: 0px 15px;
+	border-radius: 100%;
+	transition: 1s;
+}
+
+.social-icons li a:hover{
+	background: #134ca2;
+	color: white;
+}
